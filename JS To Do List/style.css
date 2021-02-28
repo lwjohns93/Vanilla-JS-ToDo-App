@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+height: 100vh;
+padding: 2rem;
+align-items: center;
+justify-content: center;
+}
+
+header {
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-weight: lighter;
+}
+
+form {
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.todos-container {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 80%;
+  max-width: 313px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-bottom: 2px solid black;
+}
+
+.todo-input {
+  padding: 0.5rem;
+  margin-right: 0.25rem;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 2px;
+}
+
+.button {
+  padding: 0.6rem;
+  margin-left: 0.25rem;
+  background: rgb(2, 240, 2);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 0.75rem;
+}
+
+.check {
+  margin-left: 0.25rem;
+  border-radius: 50%;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+.done-todo {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+
